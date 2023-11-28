@@ -15,14 +15,14 @@
                 <div class="form-group">
                     <label for="texto">Texto</label>
                     <input type="text" name="texto" class="form-control" value="${alternativa.texto}"/>
+                </div>
+                <div class="form-group">
                     <label for="isCorreta">Está correta?</label>
                     <input type="radio" name="isCorreta" value="${alternativa.isCorreta}"/>
                 </div>
                 <br />
                 <a href="/alternativa/list" class="btn btn-primary">Voltar</a>
                 <button type="submit" class="btn btn-success">Salvar</button>
-            </form>
-
-        
+            </form>        
     </body>
 </html>
