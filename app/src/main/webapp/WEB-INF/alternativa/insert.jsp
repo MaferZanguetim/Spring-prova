@@ -13,6 +13,8 @@
                 <div class="form-group">
                     <label for="texto">Texto</label>
                     <input type="text" name="texto" class="form-control"/>
+                </div>
+                <div class="form-group">
                     <label for="isCorreta">Está correta?</label>
                     <input type="radio" name="isCorreta" />
                 </div>
@@ -21,7 +23,5 @@
                 <button type="submit" class="btn btn-success">Salvar</button>
             </form>
         </div>
-
-
     </body>
 </html>
