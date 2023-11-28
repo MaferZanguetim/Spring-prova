@@ -15,14 +15,12 @@
                 <tr>
                     <th>Id</th>
                     <th>Texto</th>
-                    <th>Está correta?</th>
                     <th>&nbsp;</th>
                 </tr>
                 <c:forEach var="item" items="${alternativas}">
                     <tr>
                         <td>${item.id}</td>
                         <td>${item.texto}</td>
-                        <td>${item.isCorreta}</td>
                         <td>
                             <a href="/alternativa/update?id=${item.id}" class="btn btn-warning">Editar</a>
                             <a href="/alternativa/delete?id=${item.id}" class="btn btn-danger">Excluir</a>
@@ -31,7 +29,5 @@
                 </c:forEach>
             </table>
         </div>
-
-
     </body>
 </html>
